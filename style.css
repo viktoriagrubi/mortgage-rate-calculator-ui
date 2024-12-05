@@ -181,6 +181,7 @@ label {
   padding: 20px;
   border-radius: 0 20px 20px 50px;
   width: 100%;
+  padding-top: 80px;
 }
 
 #second h2 {
@@ -262,6 +263,7 @@ label {
   width: 100%;
   height: auto;
   align-items: stretch;
+  background-color: #fff;
 }
 
 .repayment {
@@ -319,4 +321,105 @@ label {
   outline: none;
   background-color: #fff;
   color: #123456;
+}
+
+.error {
+  border: 1px solid #ff4d4d;
+}
+
+.error-message {
+  color: #ff4d4d;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.input-mortage-term-error {
+  background-color: #fff;
+}
+
+.input-wrapper.error .input-prefix,
+.input-wrapper.error .input-suffix {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+#second,
+#third {
+  border-radius: 0 0 20px 20px;
+  padding: 20px;
+}
+
+.calculate-btn {
+  width: 100%;
+  padding: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+label {
+  font-size: 14px;
+}
+
+#monthly-repayment {
+  font-size: 32px;
+}
+
+#total-repayment {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    padding: 10px;
+  }
+
+  .calculator-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+  }
+
+  .form-section,
+  #second,
+  #third {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  label,
+  .clear-link {
+    font-size: 12px;
+  }
+
+  .calculate-btn {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  #monthly-repayment {
+    font-size: 28px;
+  }
+
+  #total-repayment {
+    font-size: 14px;
+  }
 }
